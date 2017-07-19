@@ -1,0 +1,17 @@
+{
+	"name": "lammama",
+	"//1": "TODO remind me to unset this once we have something",
+	"private": true,
+	"version": "0.0.0",
+	"description": "A lambda calculus compiler in JavaScript",
+	"scripts": {
+		"test": "xo && ava",
+		"documentation": "documentation build index.js -f md -o API.md"
+	},
+	"devDependencies": {
+		"ava": "^0.20.0",
+		"documentation": "^4.0.0-rc.1",
+		"xo": "^0.18.2"
+	},
+	"license": "MIT"
+}
